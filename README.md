@@ -1,5 +1,5 @@
 # tour-plan
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -33,29 +33,29 @@
     </div>
     <!--header-top -->
 
-    <ul class="header__menu">
-      <li class="header header--menu_item">
-        <a href="#" class="header header--menu_link">All Deals</a>
-      </li>
-      <li class="header header--menu_item">
-        <a href="#" class="header header--menu_link">Hotels</a>
-      </li>
-      <li class="header header--menu_item">
-        <a href="#" class="header header--menu_link">Activities</a>
-      </li>
-      <li class="header header--menu_item">
-        <a href="#" class="header header--menu_link">Hotel Day Packages</a>
-      </li>
-      <li class="header header--menu_item">
-        <a href="#" class="header header--menu_link">Restaurants</a>
-      </li>
-      <li class="header header--menu_item">
-        <a href="#" class="header header--menu_link">Events</a>
-      </li>
-      <li class=" header header--menu_item">
-        <a href="#" class=" header header--menu_link">Rodrigues</a>
-      </li>
-    </ul>
+<ul class="header header_menu">
+  <li class="header header--menu_item">
+    <a href="#" class="header header--menu_link">All Deals</a>
+  </li>
+  <li class="header header--menu_item">
+    <a href="#" class="header header--menu_link">Hotels</a>
+  </li>
+  <li class="header header--menu_item">
+    <a href="#" class="header header--menu_link">Activities</a>
+  </li>
+  <li class="header header--menu_item">
+    <a href="#" class="header header--menu_link">Hotel Day Packages</a>
+  </li>
+  <li class="header header--menu_item">
+    <a href="#" class="header header--menu_link">Restaurants</a>
+  </li>
+  <li class="header header--menu_item">
+    <a href="#" class="header header--menu_link">Events</a>
+  </li>
+  <li class=" header header--menu_item">
+    <a href="#" class=" header header--menu_link">Rodrigues</a>
+  </li>
+</ul>
     <!--header-menu-->
 
     </div>
