@@ -34,29 +34,29 @@
     <!--header-top -->
 
     <div>
-      <ul class="header-menu">
-        <li class="header__menu-item">
-          <a href="#" class="header__menu-link">All Deals</a>
-        </li>
-        <li class="header__menu-item">
-          <a href="#" class="header__menu-link">Hotels</a>
-        </li>
-        <li class="header__menu-item">
-          <a href="#" class="header__menu-link">Activities</a>
-        </li>
-        <li class="header__menu-item">
-          <a href="#" class="header__menu-link">Hotel Day Packages</a>
-        </li>
-        <li class="header__menu-item">
-          <a href="#" class="header__menu-link">Restaurants</a>
-        </li>
-        <li class="header__menu-item">
-          <a href="#" class="header__menu-link">Events</a>
-        </li>
-        <li class="header__menu-item">
-          <a href="#" class="header__menu-link">Rodrigues</a>
-        </li>
-      </ul>
+<ul class="header-menu">
+  <li class="header-menu__item">
+    <a href="#" class="header-menu__link">All Deals</a>
+  </li>
+  <li class="header-menu__item">
+    <a href="#" class="header-menu__link">Hotels</a>
+  </li>
+  <li class="header-menu__item">
+    <a href="#" class="header-menu__link">Activities</a>
+  </li>
+  <li class="header-menu__item">
+    <a href="#" class="header-menu__link">Hotel Day Packages</a>
+  </li>
+  <li class="header-menu__item">
+    <a href="#" class="header-menu__link">Restaurants</a>
+  </li>
+  <li class="header-menu__item">
+    <a href="#" class="header-menu__link">Events</a>
+  </li>
+  <li class="header-menu__item">
+    <a href="#" class="header-menu__link">Rodrigues</a>
+  </li>
+</ul>
       <!--header-menu-->
 
     </div>
