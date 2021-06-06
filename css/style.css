@@ -11,11 +11,11 @@ body {
   max-width: 1110px;
 }
 
-.header {
+.navbar {
   background-color: #fff;
 }
 
-.header-top {
+.navbar-top {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -23,7 +23,7 @@ body {
   padding-bottom: 40px;
 }
 
-.header__search {
+.navbar__search {
   margin-right: auto;
   margin-left: 108px;
 }
