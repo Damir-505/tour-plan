@@ -11,11 +11,11 @@ body {
   max-width: 1110px;
 }
 
-.header {
+.navbar {
   background-color: #fff;
 }
 
-.header-top {
+.navbar-top {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -23,9 +23,35 @@ body {
   padding-bottom: 40px;
 }
 
-.header__search {
+.navbar__search {
   margin-right: auto;
   margin-left: 108px;
+}
+
+.navbar-bottom {
+  background-color: #0a223d;
+}
+
+.navbar-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 31px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.navbar-menu__link {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.logo {
+  width: 177px;
 }
 
 .search {
@@ -76,4 +102,83 @@ body {
   line-height: 18px;
   color: #333333;
   margin-left: 18px;
+}
+
+.img {
+  max-width: 100%;
+}
+
+.navbar-top__menu-button {
+  display: none;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 700px;
+  }
+  .navbar-top {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .navbar-menu {
+    padding-top: 22px;
+    padding-bottom: 22px;
+  }
+  .navbar__search {
+    margin-left: auto;
+    min-width: 340px;
+  }
+  .navbar-search {
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .navbar-menu__link {
+    font-size: 12px;
+    line-height: 15px;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    max-width: 576px;
+    width: 92%;
+  }
+  .navbar-menu {
+    display: none;
+  }
+  .navbar__search {
+    display: none;
+  }
+  .navbar__user {
+    display: none;
+  }
+  .navbar-top__menu-button {
+    display: flex;
+    margin-top: -50px;
+    margin-left: 600px;
+    align-items: center;
+    width: 16px;
+    height: 11px;
+    justify-content: space-between;
+    flex-direction: column;
+    border: none;
+  }
+  .menu-button__line {
+    width: 16px;
+    height: 1px;
+    background-color: #333333;
+  }
+}
+@media (max-width: 576px) {
+  .logo {
+    width: 99px;
+  }
+  .navbar-top__menu-button {
+    margin-left: 500px;
+  }
 }
