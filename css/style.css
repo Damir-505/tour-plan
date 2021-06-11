@@ -28,8 +28,16 @@ body {
   margin-left: 108px;
 }
 
+.navbar-top__menu-button {
+  display: none;
+}
+
 .navbar-bottom {
   background-color: #0a223d;
+  top: 130px;
+  left: 0;
+  width: 100%;
+  position: fixed;
 }
 
 .navbar-menu {
@@ -148,6 +156,10 @@ body {
     max-width: 576px;
     width: 92%;
   }
+  .logo__image {
+    width: 99px;
+    height: 13.42px;
+  }
   .navbar-menu {
     display: none;
   }
@@ -158,27 +170,28 @@ body {
     display: none;
   }
   .navbar-top__menu-button {
-    display: flex;
-    margin-top: -50px;
-    margin-left: 600px;
-    align-items: center;
-    width: 16px;
-    height: 11px;
+    float: right;
+    margin-top: -40px;
     justify-content: space-between;
+    display: flex;
+    align-items: center;
     flex-direction: column;
     border: none;
+    cursor: pointer;
   }
   .menu-button__line {
+    margin-bottom: 5px;
+    height: 80px;
     width: 16px;
     height: 1px;
     background-color: #333333;
   }
 }
 @media (max-width: 576px) {
-  .logo {
+  .logo__image {
     width: 99px;
+    height: 13.42px;
   }
-  .navbar-top__menu-button {
-    margin-left: 500px;
+  @media (max-width: 360px) {
   }
 }
