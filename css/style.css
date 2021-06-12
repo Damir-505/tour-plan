@@ -124,6 +124,18 @@ body {
   .container {
     max-width: 960px;
   }
+  .logo__image {
+    width: 177px;
+    height: 24px;
+  }
+  .search__input {
+    width: 350px;
+    height: 40px;
+  }
+  .user {
+    width: 107px;
+    height: 40px;
+  }
 }
 
 @media (max-width: 992px) {
@@ -150,6 +162,18 @@ body {
     font-size: 12px;
     line-height: 15px;
   }
+  .logo__image {
+    width: 132.75px;
+    height: 18px;
+  }
+  .search__input {
+    width: 340px;
+    height: 40px;
+  }
+  .user {
+    width: 107px;
+    height: 40px;
+  }
 }
 @media (max-width: 768px) {
   .container {
@@ -170,8 +194,9 @@ body {
     display: none;
   }
   .navbar-top__menu-button {
+    background-color: #fff;
     float: right;
-    margin-top: -40px;
+    margin-top: -46px;
     justify-content: space-between;
     display: flex;
     align-items: center;
