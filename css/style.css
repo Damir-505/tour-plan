@@ -120,7 +120,7 @@ body {
   display: none;
 }
 .breadcrumb {
-  margin-top: 100px;
+  margin-top: 70px;
 }
 .breadcrumb-list {
   display: flex;
@@ -143,13 +143,14 @@ margin-left: 4px;
   color: inherit;
 }
 .hotel {
-  padding-top: 23px;
+  padding-top: 15px;
   padding-bottom: 70px;
 }
 .hotel-info {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-bottom: 20px;
 }
   .hotel-info__name {
   margin-top: 4px;
@@ -205,6 +206,51 @@ margin-left: 4px;
 }
 .body {
   background-color: #F5FAFE;
+}
+.swiper-container {
+  width: 100%;
+  height: 450px;
+  position: relative;
+  border-radius: 8px;
+}
+.swiper-after {
+  content: '';
+position: absolute;
+width: 100%;
+height: 100%;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+background: linear-gradient(180deg, rgba(0, 122, 223, 0.48) 0%, rgba(255, 255, 255, 0.128) 100%);
+border-radius: 8px;
+z-index: 10;
+}
+.slider {
+  width: 728px;
+}
+.slider-button {
+  position: absolute;
+  top: 50%;
+  margin-top: -15px;
+  z-index: 99;
+  width: 30px;
+  height: 30px;
+  border: none;
+  cursor: pointer;
+    background-repeat: no-repeat;
+  background-position: center;
+  background-size: 10px;
+  background-color: transparent;
+}
+.slider-button--next {
+  right: 18px;
+  background-image: url(../imag/arow-rghet.svg);
+
+}
+.slider-button--prev {
+  left: 18px;
+  background-image: url(../imag/arow-left.svg);
 }
 @media (max-width: 1200px) {
   .container {
@@ -287,6 +333,9 @@ margin-left: 4px;
     margin-bottom: 2px;
     margin-left: 18px;
   }
+  .breadcrumb {
+    margin-top: 40px;
+  }
 }
 @media (max-width: 768px) {
   .container {
@@ -341,7 +390,11 @@ margin-left: 4px;
     justify-content: space-between;
   }
   .hotel__right {
+    margin-bottom: -10px;
     display: none;
+  }
+  .ran {
+    font-size: 1px;
   }
   .hotel-info__offer {
     order: -1;
@@ -354,5 +407,14 @@ margin-left: 4px;
     height: 13.42px;
   }
   @media (max-width: 360px) {
+  }
+  .breadcrumb {
+    margin-top: -55px;
+  }
+  .hotel {
+    margin-top: -20px;
+  }
+  .hotel-info__offer {
+    margin-top: 10px;
   }
 }
